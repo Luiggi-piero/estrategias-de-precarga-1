@@ -5,13 +5,18 @@
                 <a routerLink="/home">Home</a>
             </li>
             <li>
-                <a routerLink="/profile">Profile</a>
+                <a routerLink="/profile" (mouseover)="cargarModulo('profile')">Profile</a>
             </li>
             <li>
-                <a routerLink="/auth">Login</a>
+                <a routerLink="/auth" (mouseover)="cargarModulo('auth')">Login</a>
             </li>
         </ul>
     </nav>
+    <!-- Precarga módulos individuales -->
+    <button (click)="cargarModulo('profile')">Precargar módulo Profile</button>
+    <button (click)="cargarModulo('auth')">Precargar módulo Auth</button>
+    <!-- Precargar todos los módulos -->
+    <button (click)="cargarTodosLosModulos()">Precargar todos los módulos</button>
 </header>
 <!-- Sistema de rutas cargando módulos de forma perezosa -->
 <router-outlet></router-outlet>
