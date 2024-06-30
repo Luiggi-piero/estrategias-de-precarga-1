@@ -9,7 +9,7 @@ También funciona para angular 13
 - [x] 2. NO precargar ningún módulo -> forzar carga perezosa
 - [x] 3. Estrategia personalizada: Precarga por opciones(propiedades) en rutas
 - [x] 4. Estrategia personalizada: Precarga por conexión
-- [x] 5. Estrategia personalizada: Precarga por demanda iniciada por evento controlado desde servicio PreloadingService
+- [x] 5. Estrategia personalizada: Precarga por demanda iniciada por evento (click y hover) controlado desde servicio PreloadingService
 
 La siguiente imagen es la estrategia 5
 ![por-eventos](https://github.com/Luiggi-piero/estrategias-de-precarga-1/assets/86317658/3b3fcabd-ff0a-4576-8d5a-ea8719ce6e4d)
